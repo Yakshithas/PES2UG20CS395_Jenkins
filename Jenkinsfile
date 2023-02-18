@@ -17,7 +17,7 @@ pipeline
             steps
             {
                 sh './pes2ug20cs395_5b'
-                echo 'test stage successful'
+                echoo 'test stage successful'
             }
         }
         stage ('Deploy')
